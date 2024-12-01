@@ -1,0 +1,100 @@
+/* Umumiy uslublar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Sarlavha */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+/* Savol maydoni */
+#question-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+/* Input va tugmalar */
+input[type="text"] {
+    width: 94%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 126, 95, 0.5);
+}
+
+/* Natija xabarlari */
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#result.correct {
+    color: #4caf50; /* Yashil rang */
+}
+
+#result.incorrect {
+    color: #f44336; /* Qizil rang */
+}
+
+#score-box {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#result.correct {
+    color: #4caf50; /* Yashil rang */
+}
+
+#result.incorrect {
+    color: #f44336; /* Qizil rang */
+}
